@@ -1,0 +1,80 @@
+<!--本自定义PCL2主题版权归属于WhiteCAT，请勿盗用！！！-->
+
+<local:MyCard Title="测试" Margin="0,0,0,15" CanSwap="False">
+    <StackPanel Margin="5">
+        <TextBlock TextWrapping="Wrap"
+                    Margin="10,25,10,10"
+                    Text="测试0.1.2.3.4.5.6.7.8.9.0|||1.2.3.4.5.6.7.8.9.0|||1.2.3.4.5.6.7.8.9.0|||1.2.3.4.5.6.7.8.9.0"
+                    FontSize="15"
+        />
+        <local:MyButton Margin="10,0,10,10"
+                        Width="140"
+                        Height="35"
+                        HorizontalAlignment="Left"
+                        Padding="13,0,13,0"
+                        Text="刷新"
+                        EventType="刷新主页"
+                        ToolTip="自定义主题正在测试中，你觉得这个按钮会用几次呢[doge]"
+            />
+    </StackPanel>
+</local:MyCard>
+
+<!--常用版本-->
+<local:MyCard Title="常用版本" Margin="0,5,5,23" CanSwap="True">
+    <StackPanel Margin="2,2,2,2">
+        <!--1.16.5-->
+        <TextBlock TextWrapping="Wrap"
+                    Margin="20,50,5,5"
+                    Text=" · 1.16.5 Fabric版本"
+                    FontSize="15"
+            />
+        <local:MyButton Width="150"
+                        Height="35"
+                        HorizontalAlignment="Center"
+                        Padding="2,5,2,2"
+                        Text="1.16.5"
+                        EventType="启动游戏"
+                        EventData="1.16.5"
+                        ToolTip="很卡，但是服务器也有很多......"
+                        Margin="20,-30,5,15"
+                        ColorType="Highlight"
+            />
+        <!--1.17.1-->
+        <TextBlock TextWrapping="Wrap"
+                    Margin="26,15,5,5"
+                    Text="· 1.17.1 Fabric版本"
+                    FontSize="15"
+            />
+        <local:MyButton Margin="20,-30,5,15"
+                        Width="150"
+                        Height="35"
+                        HorizontalAlignment="Center"
+                        Padding="2,5,2,2"
+                        Text="1.17.1"
+                        EventType="启动游戏"
+                        EventData="1.17.1"
+                        ToolTip="没啥好玩的版本..."
+                        ColorType="Highlight"
+            />
+        <!--1.18.20-->
+        <TextBlock TextWrapping="Wrap"
+                    Margin="26,15,5,5"
+                    Text="· 1.18.20 Fabric版本"
+                    FontSize="15"
+            />
+        <local:MyButton Margin="20,-30,5,15"
+                        Width="150"
+                        Height="35"
+                        HorizontalAlignment="Center"
+                        Padding="2,5,2,2"
+                        Text="1.18.20"
+                        EventType="启动游戏"
+                        EventData="1.18.20"
+                        ToolTip="没啥好玩的版本..."
+                        ColorType="Highlight"
+            />
+    </StackPanel>
+</local:MyCard>
+
+<!--常用功能-->
+<local:MyCard Title="快捷菜单">
